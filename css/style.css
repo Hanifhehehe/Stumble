@@ -56,8 +56,9 @@ p {
 
 /* Navbar */
 
-.navigation{
-    padding-top: 7px;
+#navigation{
+    padding: 17px 0 17px 0;
+
 }
 
 .navbar-logo {
@@ -89,7 +90,7 @@ p {
 }
 
 .headline-title {
-  margin-left: 14px;
+  /* margin-left: 14px; */
   color: #ffcb8e;
   font-size: 3rem;
   font-style: normal;
@@ -104,8 +105,14 @@ p {
   width: 100%;
 }
 
+.headline-logo {
+  width: 100%;
+  position: relative;
+  right: 3%;
+}
+
 .headline-more {
-  margin-left: 14px;
+  /* margin-left: 14px; */
   font-size: 20px;
   line-height: 24px;
   color: #ffcb8e;
@@ -137,7 +144,44 @@ p {
     font-size: 15px;
 }
 
+/* Plans */
 
+.tab-indicator {
+  /* position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2; */
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-right: 15%;
+  margin-bottom: 1rem;
+  margin-left: 15%;
+  list-style: none;
+}
+.tab-indicator [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 30px;
+  height: 3px;
+  padding: 0;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: 0.5;
+  transition: opacity 0.6s ease;
+}
+
+.tab-indicator .active {
+  opacity: 1;
+}
 
 /* Footer */
 

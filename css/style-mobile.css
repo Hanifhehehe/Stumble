@@ -1,0 +1,24 @@
+@media (max-width: 995px) {
+    
+    /* General */
+    body{
+        text-align: center;
+    }
+
+    #navigation{
+        padding: 0;
+    }
+    
+    /* Headline */
+    .headline{
+        text-align: center;
+    }
+
+    .headline-image{
+        display: none;
+    }
+
+    .headline-bg{
+        height: 700px;
+    }
+}

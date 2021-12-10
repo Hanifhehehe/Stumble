@@ -108,10 +108,11 @@ hr {
 
 .headline-bg {
   background-image: url("../images/headline/headline-bg.png");
-  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   height: 1050px;
   text-align: left;
-  padding-bottom: 400px;
+  padding-bottom: 500px;
 }
 
 .headline-title {
@@ -159,8 +160,8 @@ hr {
 .value-bg {
   background-image: url(../images/value/Mask\ Group.png);
 
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   /* background-size: max auto; */
   height: auto;
   position: absolute;
@@ -187,19 +188,22 @@ hr {
   font-size: 15px;
 }
 
-.value-food-center{
-  width: 40%
-  ;
+.value-food-center {
+  width: 40%;
 }
 
-.rotating-food-container{
-  background-color:#d70067;
+.rotating-food-container {
+  background-color: #d70067;
 }
 .value-rotating-food {
-  width:60%
-  -webkit-animation: spin 30s linear infinite;
-  -moz-animation: spin 30s linear infinite;
-  animation: spin 30s linear infinite;
+  width: 60%;
+  -webkit-animation: spin 20s linear infinite;
+  -moz-animation: spin 20s linear infinite;
+  animation: spin 20s linear infinite;
+}
+
+.value-rotating-food:hover{
+
 }
 
 @-webkit-keyframes spin {
@@ -342,25 +346,38 @@ hr {
   width: 30%;
 }
 
-
 /* About */
 
-.about{
-  padding: 5%
+.about {
+  padding: 5%;
 }
 
-.about-logo{
+.about-logo {
   width: 30%;
-  margin: 5%
+  margin: 5%;
 }
 
-.about-text{
- font-size: 1.5rem;
- line-height: 45px; 
- padding: 5%;
+.about-text {
+  font-size: 1.5rem;
+  line-height: 45px;
+  padding: 5%;
 }
 
-.about-pictures{
+.about-pictures {
   margin: 5%;
   width: 60%;
+}
+
+.about-card{
+  position: absolute;
+  height: 350px;
+  bottom: 0;
+}
+
+.about-eats {
+  color: #c50d66;
+}
+
+.about-app {
+  color: #707070;
 }

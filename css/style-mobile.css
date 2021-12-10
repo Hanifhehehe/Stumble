@@ -1,4 +1,4 @@
-@media (max-width: 983px) {
+@media (max-width: 992px) {
     
     /* General */
     body{
@@ -20,5 +20,12 @@
 
     .headline-bg{
         height: 700px;
+        padding-bottom: 150px;
+    }
+
+    /* Footer */
+    .footer-logo{
+        width: 60%;
+
     }
 }

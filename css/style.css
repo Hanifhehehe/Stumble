@@ -71,6 +71,25 @@ hr {
   width: 7%;
 }
 
+.hr-right{
+  text-align: right;
+  margin-left: auto;
+}
+
+.hr-left{
+  text-align: left;
+  margin-right: auto;
+}
+
+.hr-center{
+  text-align: center;
+  margin-inline: auto;
+  width: 20%;
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+
+
 /* Navbar */
 
 #navigation {
@@ -104,6 +123,7 @@ hr {
 /* Headline */
 
 .headline {
+  
 }
 
 .headline-bg {
@@ -190,6 +210,8 @@ hr {
 
 .value-food-center {
   width: 40%;
+  position: relative;
+  top: 20px;
 }
 
 .rotating-food-container {
@@ -197,13 +219,17 @@ hr {
 }
 .value-rotating-food {
   width: 60%;
-  -webkit-animation: spin 20s linear infinite;
-  -moz-animation: spin 20s linear infinite;
-  animation: spin 20s linear infinite;
+  -webkit-animation: spin 5s linear infinite;
+  -moz-animation: spin 5s linear infinite;
+  animation: spin 5s linear infinite;
 }
 
 .value-rotating-food:hover{
 
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -o-animation-play-state: paused;
+     animation-play-state: paused;
 }
 
 @-webkit-keyframes spin {
@@ -278,9 +304,9 @@ hr {
 
 .plan-container-text-fnb {
   padding-left: 20px;
-  /* text-align: right; */
-  text-align: left;
+  text-align: right;
 }
+
 
 .plan-welcome {
   color: #707070;
@@ -288,6 +314,19 @@ hr {
 
 .plan-picture-user {
   width: 100%;
+}
+
+.plan-title{
+  color: #333;
+}
+
+.perk{
+  font-size: 1rem;
+  text-align: left;
+}
+
+.plan-tier-0, .perk-2 .perk-3 .perk-4 {
+  opacity: 0.3;
 }
 
 /* Footer */

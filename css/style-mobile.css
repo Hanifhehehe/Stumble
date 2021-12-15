@@ -18,8 +18,20 @@
         display: none;
     }
 
+    .headline-scroll{
+        display: none;
+    }
+
+    .headline-logo{
+        width: 80%;
+    }
+
+    .headline-more{
+        display: block;
+    }
+
     .headline-bg{
-        height: 700px;
+        height: 800px;
         padding-bottom: 150px;
     }
 

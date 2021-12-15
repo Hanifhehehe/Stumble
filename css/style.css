@@ -120,6 +120,63 @@ hr {
   color: #333;
   border: transparent;
 }
+
+/* Footer */
+
+.footer {
+  padding: 7.5rem;
+}
+.left-column {
+  text-align: left;
+  line-height: 2.3;
+}
+
+.footer-title {
+  text-align: left;
+}
+
+.footer-links-text {
+  text-align: left;
+  color: #f5f4e8;
+  text-decoration: none;
+}
+
+.footer-contacts-text {
+  text-align: left;
+  color: #ff7000;
+}
+
+.footer-logo {
+  width: 15%;
+  padding-top: 15px;
+}
+
+/* TEST BUTTON */
+
+.btn-outline-primary {
+  color: #f6f4e7;
+  background-color: transparent;
+  background-image: none;
+  border-color: #f6f4e7;
+  margin-top: 15%;
+  margin-bottom: 5%;
+}
+
+.btn-check:active + .btn-outline-primary,
+.btn-check:checked + .btn-outline-primary,
+.btn-outline-primary.active,
+.btn-outline-primary.dropdown-toggle.show,
+.btn-outline-primary:active {
+  color: #d70067;
+  background-color: #f5f4e8;
+  background-image: none;
+  border-color: #f5f4e8;
+}
+
+.btn-group {
+  width: 30%;
+}
+
 /* Headline */
 
 .headline {
@@ -129,8 +186,8 @@ hr {
 .headline-bg {
   background-image: url("../images/headline/headline-bg.png");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-  height: 1050px;
+  background-size: 100% 70%;
+  /* height: 1050px; */
   text-align: left;
   padding-bottom: 500px;
 }
@@ -149,6 +206,11 @@ hr {
 
 .headline-image {
   width: 100%;
+}
+
+.headline-scroll{
+  text-align: center;
+  margin-left: 45%;
 }
 
 .headline-logo {
@@ -175,7 +237,7 @@ hr {
 /* Value */
 
 .value {
-  padding-top: 5rem;
+  /* padding-top: 5rem; */
 }
 .value-bg {
   background-image: url(../images/value/Mask\ Group.png);
@@ -212,6 +274,7 @@ hr {
   width: 40%;
   position: relative;
   top: 20px;
+  
 }
 
 .rotating-food-container {
@@ -329,61 +392,6 @@ hr {
   opacity: 0.3;
 }
 
-/* Footer */
-
-.footer {
-  padding: 7.5rem;
-}
-.left-column {
-  text-align: left;
-  line-height: 2.3;
-}
-
-.footer-title {
-  text-align: left;
-}
-
-.footer-links-text {
-  text-align: left;
-  color: #f5f4e8;
-  text-decoration: none;
-}
-
-.footer-contacts-text {
-  text-align: left;
-  color: #ff7000;
-}
-
-.footer-logo {
-  width: 15%;
-  padding-top: 15px;
-}
-
-/* TEST BUTTON */
-
-.btn-outline-primary {
-  color: #f6f4e7;
-  background-color: transparent;
-  background-image: none;
-  border-color: #f6f4e7;
-  margin-top: 15%;
-  margin-bottom: 5%;
-}
-
-.btn-check:active + .btn-outline-primary,
-.btn-check:checked + .btn-outline-primary,
-.btn-outline-primary.active,
-.btn-outline-primary.dropdown-toggle.show,
-.btn-outline-primary:active {
-  color: #d70067;
-  background-color: #f5f4e8;
-  background-image: none;
-  border-color: #f5f4e8;
-}
-
-.btn-group {
-  width: 30%;
-}
 
 /* About */
 
@@ -419,4 +427,87 @@ hr {
 
 .about-app {
   color: #707070;
+}
+
+
+/* Vision Mission */
+
+
+.vision-mission{
+  background-image: url(../images/vision-mission/Subtract.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /* height: 1050px;  */
+  
+}
+
+.vision-mission-picture-container{
+  padding-top: 15%;
+}
+
+.vision-mission-picture{
+  /* height: 720px; */
+  /* margin: 20% 10%; */
+  text-align: left;
+  /* padding: 25% 10%; */
+  /* height: 80%; */
+  width: 80%;
+  /* width: 100%; */
+}
+
+.vision-mission-detail{
+  /* margin-top: 25%; */
+  padding: 20% 10%;
+}
+
+.vision-mission-heading{
+  color: #ffab73;
+  line-height: 3;
+}
+
+.vision-mission-text{
+  color: #f5f4e8;
+  line-height: 1.5;
+}
+
+/* Heading */
+
+.pillars{
+  padding: 15% 15%;
+}
+
+.pillars-images-container{
+  margin: 10%;
+}
+.pillars-images{
+  margin-inline: 5%;
+  width: 150px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* Team */
+
+.team{
+  color: #f5f4e8;
+  padding: 5%;
+}
+
+.team-heading{
+  margin: 5%;
+  color: #ffab73;
+}
+
+.team-text{
+  margin: 5%;
+}
+
+.avatar-image{
+  border-radius: 100%;
+  height: 150px;
+  margin: 5%;
+}
+
+.team-job{
+  color: #f5f4e8;
 }

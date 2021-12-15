@@ -6,8 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Title -->
-    <title>Stumble!</title>
+    <!-- SEO things -->
+    <!-- <title>Stumble!</title> -->
+    <title>Cari info tempat makan yang asyik di Jabodetabek! | Stumble.id</title>
+    <meta name="description" content="Platform dimana pecinta kuliner bertemu dengan FnB lokal Jabodetabek yang kece secara seru dan mudah!">
+
 
     <!-- Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -113,7 +116,16 @@
                 </div>
 
                 <div class="col-lg-12 value-image">
-                    <img src="images/food/food1.png" alt="" class="value-food-center">
+                    <!-- <img src="images/food/food1.png" alt="" class="value-food-center"> -->
+                    <img src="" id="image" class="value-food-center">
+                    <script type="text/javascript">
+                        let image = document.getElementById('image')
+                        let images = ['images/food/food1.png','images/food/food2.png', 'images/food/food3.png','images/food/food4.png', 'images/food/food5.png']
+                        setInterval(function() {
+                            let random = Math.floor(Math.random() * 5);
+                            image.src = images[random];
+                        }, 2000);
+                    </script>
                 </div>
             </div>
             <div class="rotating-food-container">

@@ -383,14 +383,7 @@ hr {
   color: #333;
 }
 
-.perk{
-  font-size: 1rem;
-  text-align: left;
-}
 
-.plan-tier-0, .perk-2 .perk-3 .perk-4 {
-  opacity: 0.3;
-}
 
 
 /* About */

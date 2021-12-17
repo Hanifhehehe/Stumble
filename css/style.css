@@ -48,7 +48,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins";
+  font-family: "Poppins", "Helvetica", Sans-Serif;
   font-weight: 600;
 }
 
@@ -57,7 +57,7 @@ h1 {
 }
 
 p {
-  font-family: "Lato";
+  font-family: "Lato", "helvetica", Sans-Serif;
   font-weight: normal;
   color: #333;
   line-height: 1.5;

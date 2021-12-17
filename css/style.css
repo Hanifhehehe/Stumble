@@ -184,7 +184,7 @@ hr {
 }
 
 .headline-bg {
-  background-image: url("../images/headline/headline-bg.png");
+  background-image: url("../images/home/headline/headline-bg.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   /* height: 1050px; */
@@ -240,7 +240,7 @@ hr {
   padding-top: 5rem;
 }
 .value-bg {
-  background-image: url(../images/value/Mask\ Group.png);
+  background-image: url(../images/home/value/Mask\ Group.png);
 
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -398,8 +398,8 @@ hr {
 }
 
 .about-text {
-  font-size: 1.5rem;
-  line-height: 45px;
+  /* font-size: 1.5rem; */
+  line-height: 2;
   padding: 5%;
 }
 
@@ -427,7 +427,7 @@ hr {
 
 
 .vision-mission{
-  background-image: url(../images/vision-mission/Subtract.png);
+  background-image: url(../images/about/vision-mission/Subtract.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   /* height: 1050px;  */
@@ -470,11 +470,11 @@ hr {
 }
 
 .pillars-images-container{
-  margin: 10%;
+  /* margin: 10%; */
 }
 .pillars-images{
   margin-inline: 5%;
-  width: 150px;
+  width: 300px;
   margin-top: auto;
   margin-bottom: auto;
 }
@@ -498,7 +498,7 @@ hr {
 .avatar-image{
   border-radius: 100%;
   height: 150px;
-  margin: 5%;
+  margin: 5% 5% 20% 5%;
 }
 
 .team-job{

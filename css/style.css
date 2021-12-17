@@ -383,7 +383,10 @@ hr {
   color: #333;
 }
 
-
+.card{
+  background-color: #f5f4e8;
+  border-radius: 20px;
+}
 
 
 /* About */

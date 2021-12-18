@@ -48,7 +48,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", "Helvetica", Sans-Serif;
+  font-family: "Poppins";
   font-weight: 600;
 }
 
@@ -57,10 +57,26 @@ h1 {
 }
 
 p {
-  font-family: "Lato", "helvetica", Sans-Serif;
+  font-family: "Lato";
   font-weight: normal;
   color: #333;
   line-height: 1.5;
+}
+
+.price{
+  color: #d70067;
+}
+
+.price-currency{
+  font-size: 1rem;
+  position: relative;
+  bottom: 10px;
+}
+
+.price-thousands{
+  font-size: 1.2rem;
+  position: relative;
+  right: 5px;
 }
 
 /* Misc */
@@ -381,11 +397,32 @@ hr {
 
 .plan-title{
   color: #333;
+  font-size: 1.7rem;
 }
 
-.card{
-  background-color: #f5f4e8;
+.plan-card{
+  background-color: #ffd384;
   border-radius: 20px;
+  padding: 5% 0 10% 0;
+}
+
+.card-title{
+  color: #333;
+}
+
+.card-text{
+  text-align: left;
+  color: #707070;
+}
+
+.card-body{
+  text-align: center;
+}
+
+.list-group-item{
+  background-color: #ffd384;
+  padding-left: 10%;
+  border-style: none;
 }
 
 

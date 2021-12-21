@@ -105,6 +105,95 @@ hr {
   margin-bottom: 7%;
 }
 
+/* BUTTON */
+
+.btn-outline-primary {
+  color: #f6f4e7;
+  background-color: transparent;
+  background-image: none;
+  border-color: #f6f4e7;
+  margin-top: 15%;
+  margin-bottom: 5%;
+}
+
+.btn-check:active + .btn-outline-primary,
+.btn-check:checked + .btn-outline-primary,
+.btn-outline-primary.active,
+.btn-outline-primary.dropdown-toggle.show,
+.btn-outline-primary:active {
+  color: #d70067;
+  background-color: #f5f4e8;
+  background-image: none;
+  border-color: #f5f4e8;
+}
+
+.btn-group {
+  width: 30%;
+}
+
+.button-stumble{
+  background-image: linear-gradient(to right, #D70067 0% , #FFC983 51%, #D70067 100% );
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  /* text-transform: uppercase; */
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  /* box-shadow: 0 0 20px #eee; */
+  border-radius: 40px;
+  display: block;
+}
+
+.button-stumble:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Card Contents */
+
+.card-title{
+  margin-bottom: 25px;
+  color: #333;
+
+}
+
+.card-text{
+  text-align: left;
+  color: #707070;
+  margin-bottom: 25px;
+}
+
+.card-body{
+  text-align: center;
+  /* margin-top: 10px; */
+}
+
+.list-group-item{
+  background-color: #ffd384;
+  padding-left: 10%;
+  border-style: none;
+}
+
+.plan-title{
+  color: #333;
+  font-size: 1.7rem;
+}
+
+.plan-card{
+  background-color: #ffd384;
+  border-radius: 20px;
+  padding: 3% 0;
+}
+
+.plan-check{
+  width: 35px;
+}
+
+.plan-purchase-text{
+  
+}
 
 /* Navbar */
 
@@ -167,30 +256,13 @@ hr {
   padding-top: 15px;
 }
 
-/* TEST BUTTON */
-
-.btn-outline-primary {
-  color: #f6f4e7;
-  background-color: transparent;
-  background-image: none;
-  border-color: #f6f4e7;
-  margin-top: 15%;
-  margin-bottom: 5%;
+.form-footer{
+  background-color:transparent !important;
+  border:none !important;
 }
 
-.btn-check:active + .btn-outline-primary,
-.btn-check:checked + .btn-outline-primary,
-.btn-outline-primary.active,
-.btn-outline-primary.dropdown-toggle.show,
-.btn-outline-primary:active {
-  color: #d70067;
-  background-color: #f5f4e8;
-  background-image: none;
-  border-color: #f5f4e8;
-}
-
-.btn-group {
-  width: 30%;
+.button-footer-submit{
+  
 }
 
 /* Headline */
@@ -287,10 +359,13 @@ hr {
 }
 
 .value-food-center {
-  width: 40%;
+  width: 80%;
   position: relative;
-  top: 20px;
-  
+  top: 20px; 
+}
+
+.value-down-arrow{
+  padding-top: 10%;
 }
 
 .rotating-food-container {
@@ -394,37 +469,6 @@ hr {
 .plan-picture-user {
   width: 100%;
 }
-
-.plan-title{
-  color: #333;
-  font-size: 1.7rem;
-}
-
-.plan-card{
-  background-color: #ffd384;
-  border-radius: 20px;
-  padding: 5% 0 10% 0;
-}
-
-.card-title{
-  color: #333;
-}
-
-.card-text{
-  text-align: left;
-  color: #707070;
-}
-
-.card-body{
-  text-align: center;
-}
-
-.list-group-item{
-  background-color: #ffd384;
-  padding-left: 10%;
-  border-style: none;
-}
-
 
 /* About */
 
@@ -543,4 +587,38 @@ hr {
 
 .team-job{
   color: #f5f4e8;
+}
+
+/* Contacts Graphics */
+
+.contact-graphics{
+  padding: 3%;
+}
+
+.contact-graphics-text-container{
+  display: flex; /* displays flex-items (children) inline */
+  justify-content: center; /* horizontally centered */
+  align-items: center; /* vertically centered */
+}
+
+.contact-graphics-detail{
+  display: block;
+}
+
+.contact-graphics-text{
+  margin: 5% 0%;
+}
+
+/* Contact Form */
+
+/* Contact Social */
+
+.social-icons-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-social-icons{
+  margin: 10% 3%;
 }

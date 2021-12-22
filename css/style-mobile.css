@@ -1,6 +1,4 @@
 @media (max-width: 992px) {
-
-
   /* General */
 
   body {
@@ -11,20 +9,24 @@
     padding: 0;
   }
 
-  .invisible-when-mobile{
-      display: none;
+  .invisible-when-mobile {
+    display: none;
   }
-  
+
   /* Footer */
   .footer-logo {
-
-    width: 60%;
+    width: 100%;
   }
 
   /* Headline */
 
   .headline {
     text-align: center;
+  }
+
+  .headline-title {
+    position: relative;
+    top: 20px;
   }
 
   .headline-image {
@@ -50,16 +52,21 @@
 
   /* Value */
 
-  .value-down-arrow{
-      display: none;
+  .value {
+    padding-top: 1rem;
   }
 
-  .value-food-center{
-      width: 30%;
+  .value-down-arrow {
+    display: none;
   }
 
-  .md-form{
-      width:50%;
+  .value-food-center {
+    width: 30%;
+    position: relative;
+    bottom: 35%;
+  }
+
+  .value-button {
+    display: none;
   }
 }
-

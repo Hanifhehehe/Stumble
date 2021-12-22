@@ -63,6 +63,10 @@ p {
   line-height: 1.5;
 }
 
+.paragraph {
+  text-align: justify;
+}
+
 .price {
   color: #d70067;
 }
@@ -139,7 +143,7 @@ hr {
     #d70067 100%
   );
   margin: 10px;
-  padding: 15px 45px;
+  padding: 15px 5px;
   text-align: center;
   /* text-transform: uppercase; */
   transition: 0.5s;
@@ -159,7 +163,7 @@ hr {
 /* Card Contents */
 
 .card-title {
-  margin-bottom: 25px;
+  margin-bottom: 35px;
   color: #333;
 }
 
@@ -175,7 +179,13 @@ hr {
 }
 
 .list-group-item {
-  background-color: #ffd384;
+  background-color: #ffd7a3;
+  padding-left: 10%;
+  border-style: none;
+}
+
+.list-highlight {
+  background-color: #ffc983;
   padding-left: 10%;
   border-style: none;
 }
@@ -186,7 +196,7 @@ hr {
 }
 
 .plan-card {
-  background-color: #ffd384;
+  background-color: #ffd7a3;
   border-radius: 20px;
   padding: 3% 0;
 }
@@ -195,8 +205,11 @@ hr {
   width: 30px;
 }
 
-.plan-purchase-text {
+.plan-highlight {
+  background-color: #ffc983;
+}
 
+.plan-purchase-text {
 }
 
 /* Navbar */
@@ -255,14 +268,19 @@ hr {
   color: #ff7000;
 }
 
-.footer-logo {
-  width: 15%;
-  padding-top: 15px;
+.footer-logo-container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
 
-.form-footer {
-  background-color: transparent !important;
-  border: none !important;
+.footer-logo-place {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.footer-logo {
+  width: 60%;
 }
 
 .button-footer-submit {
@@ -288,19 +306,19 @@ hr {
   font-size: 3rem;
   font-style: normal;
   line-height: 72px;
+  position: relative;
+  top: 45px;
 }
 
 .headline-column {
   padding: 85px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .headline-image {
   width: 100%;
-}
-
-.headline-scroll {
-  text-align: center;
-  margin-left: 45%;
 }
 
 .headline-logo {
@@ -361,13 +379,17 @@ hr {
 }
 
 .value-food-center {
-  width: 80%;
-  position: relative;
-  top: 20px;
+  width: 70%;
+  /* position: absolute; */
+  /* bottom: 30px; */
 }
 
 .value-down-arrow {
   padding-top: 10%;
+}
+
+.down-arrow {
+  height: 50px;
 }
 
 .rotating-food-container {
@@ -375,9 +397,9 @@ hr {
 }
 .value-rotating-food {
   width: 60%;
-  -webkit-animation: spin 5s linear infinite;
-  -moz-animation: spin 5s linear infinite;
-  animation: spin 5s linear infinite;
+  -webkit-animation: spin 10s linear infinite;
+  -moz-animation: spin 10s linear infinite;
+  animation: spin 10s linear infinite;
 }
 
 .value-rotating-food:hover {
@@ -443,6 +465,10 @@ hr {
   opacity: 1;
 }
 
+.button-plan {
+  height: 50px;
+}
+
 .plan-container {
   width: 80%;
   background-color: #f5f4e8;
@@ -470,12 +496,31 @@ hr {
   width: 100%;
 }
 
-.plan-detail{
-  padding: 3% 20%;
+.plan-detail {
+
 }
 
-.paragraph{
-  text-align: justify;
+.plan-detail-user-graphic1 {
+  width: 80%;
+}
+
+.plan-user-list {
+  text-align: left;
+  list-style-type: square;
+}
+
+.plan-user-list-item {
+  color: #c50d66;
+}
+
+.best-value {
+  background-color: #d70067;
+  border-radius: 15px 0 0 15px;
+  padding: 2px 15px 2px 15px;
+  height: 30px;
+  position: absolute;
+  right: 0%;
+  top: 15%;
 }
 
 /* About */
@@ -540,6 +585,9 @@ hr {
 .vision-mission-detail {
   /* margin-top: 25%; */
   padding: 20% 10%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .vision-mission-heading {
@@ -634,7 +682,7 @@ hr {
   text-align: center;
 }
 
-.contact-form{
+.contact-form {
   margin-top: 30px;
 }
 

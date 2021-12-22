@@ -8,7 +8,7 @@
 
     <!-- SEO things -->
     <!-- <title>Stumble!</title> -->
-    <title> Stumble.id | Cari info tempat makan yang asyik di Jabodetabek!</title>
+    <title> Stumble | Cari info tempat makan yang asyik di Jabodetabek!</title>
     <meta name="description"
         content="Platform dimana pecinta kuliner bertemu dengan FnB lokal Jabodetabek yang kece secara seru dan mudah!">
 
@@ -74,7 +74,7 @@
 
                         <ul class="navbar-nav ms-auto me-auto">
                             <li class="nav-item">
-                                <a class="nav-link " href="index.html">Home</a>
+                                <a class="nav-link active" href="index.html">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link " href="about.html">About Us</a>
@@ -96,19 +96,18 @@
             <div class="row headline-bg">
 
                 <div class="col-lg-6 headline-column">
-                    <h1 class="big-heading headline-title">Introducing</h1>
-                    <img src="images/home/headline/stumble-eats.png" alt="" class="headline-logo">
-                    <a href="#value" class="headline-more">
-                        learn more <i class="fas fa-chevron-right"></i>
-                    </a>
+                    <div class="headline-column-product">
+                        <h1 class="big-heading headline-title">Introducing</h1>
+                        <img src="images/home/headline/stumble-eats.png" alt="" class="headline-logo">
+                        <a href="#value" class="headline-more">
+                            learn more <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
                 </div>
 
                 <div class="col-lg-6 headline-column">
                     <img src="images/home/headline/food-headline.png" alt="" class="headline-image">
                 </div>
-                <!-- <div class="col-lg-12">
-                    <img src="images/old-headline/scroll-down.svg" alt="" class="headline-scroll">
-                </div> -->
             </div>
 
         </div>
@@ -123,13 +122,18 @@
 
                 <div class="col-lg-12 value-detail">
                     <H2 class="value-title"> Find what you want!</H2>
+                    <br>
                     <p class="value-subtitle"> Stumble into restaurants you like!</p>
-                    <a class="btn btn-block button-stumble" href="#plans" style="width: 200px; text-align:center; margin-left: auto; margin-right: auto;">
-                        <h6 class="plan-purchase-text">How?</h6></a>
+                    <br>
+                    <a class="btn btn-block button-stumble value-button" href="#plans"
+                        style="width: 150px; text-align:center; margin-left: auto; margin-right: auto; height: 50px;">
+                        <h6 class="plan-purchase-text">How?</h6>
+                    </a>
+                    <br>
                 </div>
 
                 <div class="col-lg-3 value-down-arrow">
-                    <a class="" href="#plans"><img src="images/home/value/down-arrow.png" alt=""></a>
+                    <a class="" href="#plans"><img src="images/home/value/down-arrow.png" alt="" class="down-arrow"></a>
                 </div>
 
                 <div class="col-lg-6 value-image">
@@ -149,7 +153,7 @@
                 </div>
 
                 <div class="col-lg-3 value-down-arrow">
-                    <a class="" href="#plans"><img src="images/home/value/down-arrow.png" alt=""></a>
+                    <a class="" href="#plans"><img src="images/home/value/down-arrow.png" alt="" class="down-arrow"></a>
                 </div>
 
             </div>
@@ -160,7 +164,6 @@
     </section>
 
     <!-- Plans -->
-
     <section class="section-color" id="plans">
         <div class="plans">
 
@@ -192,6 +195,7 @@
 
                 <div class="carousel-inner">
 
+                    <!-- For USer -->
                     <div class="carousel-item active">
                         <div class="row plan-container">
                             <div class="col-sm-7 plan-container-text-user">
@@ -208,10 +212,17 @@
                                     cater to offline or online consumer
                                 </p>
 
-                                <a class="btn btn-block button-stumble"
-                                    href="https://instagram.com/stumble.eats">
-                                    <h6 class="plan-purchase-text">Visit us!</h6>
-                                </a>
+                                <div class="row">
+                                    <div class="col-lg-5">
+                                        <a class="btn btn-block button-stumble button-plan"
+                                            href="https://instagram.com/stumble.eats">
+                                            <h6 class="plan-purchase-text">Visit us!</h6>
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-7">
+
+                                    </div>
+                                </div>
                             </div>
                             <div class="col-sm-5">
                                 <img src="images/home/plan-user/combined.png" alt="" class="plan-picture-user">
@@ -227,13 +238,47 @@
                                     <span style="color: #c50d66;">Stumble<span style="color: #f07810;">!</span></span>
                                     yang dituju untuk memudahkan para pengguna Instagram dalam mencari inspirasi
                                     makanan!
-                                    Kami mengkurasi para pelakor merchant FnB dipulau Jawa (pulau lain tunggu bentar ya 😉)
+                                    Kami mengkurasi para pelakor merchant FnB dipulau Jawa (pulau lain tunggu bentar ya
+                                    😉)
                                     dan mempresentasikan mereka kepada kalian secantik dan seinformatif mungkin!
                                 </p>
+                                <br>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="images/home/plan-user/search.png" alt="" class="plan-detail-user-graphic1">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h1>
+                                            Apa yang bisa kamu cari?
+                                        </h1>
+                                        <br>
+                                        <ul class="plan-user-list">
+                                            <li class="plan-user-list-item">
+                                                <p style="color: #333;">Menu makanan beserta harganya</p>
+                                            </li>
+                                            <li class="plan-user-list-item">
+                                                <p style="color: #333;">Foto produk dari restoran</p>
+                                            </li>
+                                            <li class="plan-user-list-item">
+                                                <p style="color: #333;">Alamat lengkap beserta jam operasional</p>
+                                            </li>
+                                            <li class="plan-user-list-item">
+                                                <p style="color: #333;">Foto suasana restoran</p>
+                                            </li>
+                                            <li class="plan-user-list-item">
+                                                <p style="color: #333;">Kondisi tempat parkir</p>
+                                            </li>
+                                            <li class="plan-user-list-item">
+                                                <p style="color: #333;">Rekomendasi restoran sejenis, sesuai keinginan kamu tentunya!</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
 
+                    <!-- For FnB -->
                     <div class="carousel-item">
                         <div class="row plan-container">
                             <div class="col-sm-5">
@@ -250,111 +295,142 @@
                                 <br>
                                 <p>An all in one solution for all of your marketing needs!</p>
 
-                                <a class="btn btn-block button-stumble" href="https://api.whatsapp.com/message/Q4GPORJMEVADC1">
-                                    <h6>Talk to us!</h6>
-                                </a>
+                                <div class="row">
+                                    <div class="col-lg-7"></div>
+                                    <div class="col-lg-5">
+                                        <a class="btn btn-block button-stumble button-plan"
+                                            href="https://api.whatsapp.com/message/Q4GPORJMEVADC1">
+                                            <h6>Talk to us!</h6>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
 
 
-                                <!-- <img src="images/Desktop 36.png" alt="" style="width: 100%;"> -->
-                                <hr class="hr-center">
-                                <h1>Choose your plan</h1>
-                                <br>
-                                <br>
-                                <div class="card-group">
-                                    <div class="card plan-card">
-                                        <div class="card-title"> 
-                                            <h2 class="plan-title">Paket Gratis</h2>
-                                        </div>
-                                        <div class="card-text">
-                                            <div class="card-text-container">
-                                                <ul class="list-group list-group-flush ">
-                                                    <li class=" list-group-item" style="opacity: 1;"> <i class="fas fa-check plan-check"></i>   Direct Marketing</li>
-                                                    <li class=" list-group-item" style="opacity: 0.3;"> <i class="fas fa-times plan-check"></i>  Marketing Content</li>
-                                                    <li class=" list-group-item" style="opacity: 0.3;"> <i class="fas fa-times plan-check"></i>  Mass Marketing</li>
-                                                    <li class=" list-group-item" style="opacity: 0.3;"> <i class="fas fa-times plan-check"></i>  Custom Content</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="card-body">
-
-                                                <h3 class="price"> <span class="price-currency">Rp.</span> 0</h3>
-                                                <a class="btn btn-block button-stumble"
-                                                    href="https://api.whatsapp.com/message/Q4GPORJMEVADC1">
-                                                    <h6 class="plan-purchase-text">Try now!</h6>
-                                                </a>
-                                            </div>
+                            <!-- <img src="images/Desktop 36.png" alt="" style="width: 100%;"> -->
+                            <hr class="hr-center">
+                            <h1>Choose your plan</h1>
+                            <br>
+                            <br>
+                            <div class="card-group">
+                                <div class="card plan-card ">
+                                    <div class="card-title">
+                                        <h2 class="plan-title">Paket Gratis</h2>
                                     </div>
-                                    <div class="card plan-card">
-                                        <div class="card-title"> 
-                                            <h2 class="plan-title">Paket Hemat</h2>
+                                    <div class="card-text">
+                                        <div class="card-text-container">
+                                            <ul class="list-group list-group-flush ">
+                                                <li class=" list-group-item" style="opacity: 1;"> <i
+                                                        class="fas fa-check plan-check"></i> Direct Marketing</li>
+                                                <li class=" list-group-item" style="opacity: 0.3;"> <i
+                                                        class="fas fa-times plan-check"></i> Marketing Content</li>
+                                                <li class=" list-group-item" style="opacity: 0.3;"> <i
+                                                        class="fas fa-times plan-check"></i> Mass Marketing</li>
+                                                <li class=" list-group-item" style="opacity: 0.3;"> <i
+                                                        class="fas fa-times plan-check"></i> Custom Content</li>
+                                            </ul>
                                         </div>
-                                        <div class="card-text">
-                                            <div class="card-text-container">
-                                                <ul class="list-group list-group-flush ">
-                                                    <li class=" list-group-item" style="opacity: 1;"> <i class="fas fa-check plan-check"></i>   Direct Marketing</li>
-                                                    <li class=" list-group-item" style="opacity: 1;"> <i class="fas fa-check plan-check"></i>   Marketing Content</li>
-                                                    <li class=" list-group-item" style="opacity: 0.3;"> <i class="fas fa-times plan-check"></i>  Mass Marketing</li>
-                                                    <li class=" list-group-item" style="opacity: 0.3;"> <i class="fas fa-times plan-check"></i>  Custom Content</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="card-body">
-
-                                                <h3 class="price"> <span class="price-currency">Rp.</span> 50 <span class="price-thousands">k</span></h3> 
-                                                <a class="btn btn-block button-stumble"
-                                                    href=" https://app.midtrans.com/payment-links/1639639697994">
-                                                    <h6 class="plan-purchase-text">Buy now!</h6>
-                                                </a>
-                                            </div>
                                     </div>
-                                    <div class="card plan-card">
-                                        <div class="card-title"> 
-                                            <h2 class="plan-title">Paket Komplit</h2>
-                                        </div>
-                                        <div class="card-text">
-                                            <div class="card-text-container">
-                                                <ul class="list-group list-group-flush ">
-                                                    <li class=" list-group-item" style="opacity: 1;"> <i class="fas fa-check plan-check"></i>   Direct Marketing</li>
-                                                    <li class=" list-group-item" style="opacity: 1;"> <i class="fas fa-check plan-check"></i>   Marketing Content</li>
-                                                    <li class=" list-group-item" style="opacity: 1;"> <i class="fas fa-check plan-check"></i>   Mass Marketing</li>
-                                                    <li class=" list-group-item" style="opacity: 0.3;"> <i class="fas fa-times plan-check"></i>  Custom Content</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="card-body">
+                                    <div class="card-body">
 
-                                                <h3 class="price"> <span class="price-currency">Rp.</span> 200 <span class="price-thousands">k</span></h3> 
-                                                <a class="btn btn-block button-stumble"
-                                                    href="https://app.midtrans.com/payment-links/1639639881545">
-                                                    <h6 class="plan-purchase-text">Buy now!</h6>
-                                                </a>
-                                            </div>
-                                    </div>
-                                    <div class="card plan-card">
-                                        <div class="card-title"> 
-                                            <h2 class="plan-title">Paket Super</h2>
-                                        </div>
-                                        <div class="card-text">
-                                            <div class="card-text-container">
-                                                <ul class="list-group list-group-flush ">
-                                                    <li class=" list-group-item" style="opacity: 1;"> <i class="fas fa-check plan-check"></i>   Direct Marketing</li>
-                                                    <li class=" list-group-item" style="opacity: 1;"> <i class="fas fa-check plan-check"></i>   Marketing Content</li>
-                                                    <li class=" list-group-item" style="opacity: 1;"> <i class="fas fa-check plan-check"></i>   Mass Marketing</li>
-                                                    <li class=" list-group-item" style="opacity: 1;"> <i class="fas fa-check plan-check"></i>   Custom Content</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="card-body">
-
-                                                <h3 class="price"> <span class="price-currency">Rp.</span> 400 <span class="price-thousands">k</span></h3> 
-                                                <a class="btn btn-block button-stumble"
-                                                    href="https://app.midtrans.com/payment-links/1639639930179">
-                                                    <h6 class="plan-purchase-text">Buy now!</h6>
-                                                </a>
-                                            </div>
+                                        <h3 class="price"> <span class="price-currency">Rp.</span> 0</h3>
+                                        <a class="btn btn-block button-stumble"
+                                            href="https://api.whatsapp.com/message/Q4GPORJMEVADC1">
+                                            <h6 class="plan-purchase-text">Try now!</h6>
+                                        </a>
                                     </div>
                                 </div>
+                                <div class="card plan-card ">
+                                    <div class="card-title">
+                                        <h2 class="plan-title">Paket Hemat</h2>
+                                    </div>
+                                    <div class="card-text">
+                                        <div class="card-text-container">
+                                            <ul class="list-group list-group-flush ">
+                                                <li class=" list-group-item" style="opacity: 1;"> <i
+                                                        class="fas fa-check plan-check"></i> Direct Marketing</li>
+                                                <li class=" list-group-item" style="opacity: 1;"> <i
+                                                        class="fas fa-check plan-check"></i> Marketing Content</li>
+                                                <li class=" list-group-item" style="opacity: 0.3;"> <i
+                                                        class="fas fa-times plan-check"></i> Mass Marketing</li>
+                                                <li class=" list-group-item" style="opacity: 0.3;"> <i
+                                                        class="fas fa-times plan-check"></i> Custom Content</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+
+                                        <h3 class="price"> <span class="price-currency">Rp.</span> 50 <span
+                                                class="price-thousands">k</span></h3>
+                                        <a class="btn btn-block button-stumble"
+                                            href=" https://app.midtrans.com/payment-links/1639639697994">
+                                            <h6 class="plan-purchase-text">Buy now!</h6>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="card plan-card plan-highlight">
+                                    <div class="card-title">
+                                        <h2 class="plan-title">Paket Komplit</h2>
+
+                                    </div>
+
+                                    <div class="card-text">
+                                        <div class="card-text-container">
+                                            <ul class="list-group list-group-flush ">
+                                                <li class=" list-group-item list-highlight" style="opacity: 1;"> <i
+                                                        class="fas fa-check plan-check"></i> Direct Marketing</li>
+                                                <li class=" list-group-item list-highlight" style="opacity: 1;"> <i
+                                                        class="fas fa-check plan-check"></i> Marketing Content</li>
+                                                <li class=" list-group-item list-highlight" style="opacity: 1;"> <i
+                                                        class="fas fa-check plan-check"></i> Mass Marketing</li>
+                                                <li class=" list-group-item list-highlight" style="opacity: 0.3;"> <i
+                                                        class="fas fa-times plan-check"></i> Custom Content</li>
+                                            </ul>
+                                        </div>
+                                    <div class="best-value">
+                                        <p style="color: antiquewhite;">best
+                                            value</p>
+                                    </div>
+                                    </div>
+                                    <div class="card-body">
+
+                                        <h3 class="price"> <span class="price-currency">Rp.</span> 200 <span
+                                                class="price-thousands">k</span></h3>
+                                        <a class="btn btn-block button-stumble"
+                                            href="https://app.midtrans.com/payment-links/1639639881545">
+                                            <h6 class="plan-purchase-text">Buy now!</h6>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="card plan-card ">
+                                    <div class="card-title">
+                                        <h2 class="plan-title">Paket Super</h2>
+                                    </div>
+                                    <div class="card-text">
+                                        <div class="card-text-container">
+                                            <ul class="list-group list-group-flush ">
+                                                <li class=" list-group-item" style="opacity: 1;"> <i
+                                                        class="fas fa-check plan-check"></i> Direct Marketing</li>
+                                                <li class=" list-group-item" style="opacity: 1;"> <i
+                                                        class="fas fa-check plan-check"></i> Marketing Content</li>
+                                                <li class=" list-group-item" style="opacity: 1;"> <i
+                                                        class="fas fa-check plan-check"></i> Mass Marketing</li>
+                                                <li class=" list-group-item" style="opacity: 1;"> <i
+                                                        class="fas fa-check plan-check"></i> Custom Content</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+
+                                        <h3 class="price"> <span class="price-currency">Rp.</span> 400 <span
+                                                class="price-thousands">k</span></h3>
+                                        <a class="btn btn-block button-stumble"
+                                            href="https://app.midtrans.com/payment-links/1639639930179">
+                                            <h6 class="plan-purchase-text">Buy now!</h6>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
 
 
 
@@ -365,36 +441,32 @@
                 </div>
     </section>
 
-
-
-
-
-
-
-
     <!-- Footer -->
     <section class="section-footer" id="footer">
         <div class="footer">
             <div class="row">
-                <div class="col-lg-3 left-column">
+                <div class="col-md-3 left-column">
                     <h2 class="footer-title"> Hot links</h2>
                     <a href="index.html" class="footer-links-text">Home</a> <br>
                     <a href="about.html" class="footer-links-text">About us</a> <br>
                     <a href="contact.html" class="footer-links-text">Contact us</a> <br>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-md-3">
                     <h2 class="footer-title">Contacts</h2>
                     <p class="footer-contacts-text">Jl. Kh. Syafii Hadzami no. 8</p>
                     <p class="footer-contacts-text">Kebayoran Lama, Jakarta Selatan</p>
                     <p class="footer-contacts-text">(+62) 878 4204 2069</p>
                     <p class="footer-contacts-text">hello@stumble.id</p>
                 </div>
-                <div class="col-lg-6">
-
+                <div class="col-md-6 footer-logo-container">
+                    <div class="footer-logo-place">
+                        <a href="index.html">
+                            <img class="footer-logo" src="images/logo/stumble-white.png" alt="">
+                        </a>
+                    </div>
                 </div>
             </div>
-            <a href="index.html"><img src="images/logo/stumble-white.png" alt=""
-                    style="width: 15%; padding-top: 15px;"></a>
+
         </div>
     </section>
 

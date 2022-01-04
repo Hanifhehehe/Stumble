@@ -109,6 +109,10 @@ hr {
   margin-bottom: 7%;
 }
 
+textarea {
+  resize: none;
+}
+
 /* BUTTON */
 
 .btn-outline-primary {
@@ -158,6 +162,12 @@ hr {
   background-position: right center; /* change the direction of the change here */
   color: #fff;
   text-decoration: none;
+}
+
+.button-stumble-simple {
+  background-color: #d70067;
+  border: none;
+  border-radius: 25px;
 }
 
 /* Card Contents */
@@ -318,7 +328,7 @@ hr {
 }
 
 .headline-image {
-  width: 100%;
+  width: 80%;
 }
 
 .headline-logo {
@@ -497,11 +507,37 @@ hr {
 }
 
 .plan-detail {
-
 }
 
-.plan-detail-user-graphic1 {
-  width: 80%;
+.plan-user-detail-value {
+  padding: 5% 7%;
+  box-shadow: 7px 7px 7px 7px #10101010;
+  border-radius: 20px;
+  text-align: justify;
+  color: #333;
+}
+
+.plan-user-features{
+  /* text-align: justify; */
+}
+
+.informative-content-container{
+  padding: 3%;
+}
+
+.informative-content{
+  box-shadow: 5px 5px 5px 5px #10101010;
+  border-radius: 15px;
+  padding: 3px;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 150px;
+}
+
+.informative-content-title{
+  margin: auto;
 }
 
 .plan-user-list {
@@ -630,6 +666,7 @@ hr {
 
 .team-text {
   margin: 5%;
+  color: #f5f4e8;
 }
 
 .avatar-image {
@@ -678,12 +715,16 @@ hr {
   background-color: white;
   height: 500px;
   border-radius: 50px 50px 0 0;
-  padding: 50px 20px;
-  text-align: center;
+  padding: 3%;
+  text-align: left;
 }
 
 .contact-form {
   margin-top: 30px;
+}
+
+.contact-form-input {
+  width: 100%;
 }
 
 /* Contact Social */

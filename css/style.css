@@ -112,7 +112,7 @@ hr {
 
 .hr-invisible {
   border-style: none;
-  margin: 10% 0;
+  margin: 5% 0;
 }
 
 textarea {
@@ -550,7 +550,7 @@ textarea {
   margin: auto;
 }
 
-.informative-content-container-text{
+.informative-content-container-title-text{
   font-size: 1.5em;
 }
 

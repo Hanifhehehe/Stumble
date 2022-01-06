@@ -105,8 +105,14 @@ hr {
   text-align: center;
   margin-inline: auto;
   width: 20%;
-  margin-top: 7%;
-  margin-bottom: 7%;
+  margin: 7% 0;
+  /* margin-top: 7%; */
+  /* margin-bottom: 7%; */
+}
+
+.hr-invisible {
+  border-style: none;
+  margin: 10% 0;
 }
 
 textarea {
@@ -545,7 +551,7 @@ textarea {
 }
 
 .informative-content-container-text{
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .plan-user-list {

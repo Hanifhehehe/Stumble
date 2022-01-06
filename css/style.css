@@ -113,6 +113,10 @@ textarea {
   resize: none;
 }
 
+.br-20px{
+  margin: 10px;
+}
+
 /* BUTTON */
 
 .btn-outline-primary {
@@ -538,6 +542,10 @@ textarea {
 
 .informative-content-title{
   margin: auto;
+}
+
+.informative-content-container-text{
+  font-size: 2em;
 }
 
 .plan-user-list {

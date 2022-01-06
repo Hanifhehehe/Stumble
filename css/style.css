@@ -112,7 +112,7 @@ hr {
 
 .hr-invisible {
   border-style: none;
-  margin: 5% 0;
+  margin: 3% 0;
 }
 
 textarea {
@@ -519,7 +519,11 @@ textarea {
 .plan-detail {
 }
 
-.plan-user-detail-value {
+.plan-detail-title{
+  font-size: 1.5em;
+}
+
+.plan-detail-container {
   padding: 5% 7%;
   box-shadow: 7px 7px 7px 7px #10101010;
   border-radius: 20px;
@@ -550,8 +554,12 @@ textarea {
   margin: auto;
 }
 
-.informative-content-container-title-text{
-  font-size: 1.5em;
+.informative-content-text{
+  font-size: 1.2em;
+}
+
+.informative-content-image{
+  height: 80%;
 }
 
 .plan-user-list {

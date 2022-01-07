@@ -489,6 +489,8 @@ textarea {
   height: 50px;
 }
 
+/* PLAN */
+
 .plan-container {
   width: 80%;
   background-color: #f5f4e8;
@@ -512,23 +514,26 @@ textarea {
   color: #707070;
 }
 
-.plan-picture-user {
+.plan-picture-headline {
   width: 100%;
 }
 
-.plan-detail {
+.plan-value-image{
+  margin-bottom: 15px;
+  width: 20%
 }
 
-.plan-detail-title{
+.plan-value-title{
   font-size: 1.5em;
 }
 
-.plan-detail-container {
+.plan-value-container {
   padding: 5% 7%;
   box-shadow: 7px 7px 7px 7px #10101010;
   border-radius: 20px;
   text-align: justify;
   color: #333;
+  height: 350px;
 }
 
 .plan-user-features{
@@ -537,6 +542,9 @@ textarea {
 
 .informative-content-container{
   padding: 3%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .informative-content{
@@ -547,7 +555,8 @@ textarea {
   display: flex;
   justify-content: center;
   align-content: center;
-  height: 150px;
+  height: 125px;
+  width: 80%;
 }
 
 .informative-content-title{
@@ -555,10 +564,16 @@ textarea {
 }
 
 .informative-content-text{
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
+.informative-content-image-container{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
 .informative-content-image{
+  /* width: 80%; */
   height: 80%;
 }
 
@@ -593,7 +608,7 @@ textarea {
 }
 
 .about-text {
-  /* font-size: 1.5rem; */
+  font-size: 1.3rem;
   line-height: 2;
   padding: 5%;
 }
@@ -682,12 +697,11 @@ textarea {
 }
 
 .team-heading {
-  margin: 5%;
   color: #ffab73;
 }
 
 .team-text {
-  margin: 5%;
+  /* margin: 5%; */
   color: #f5f4e8;
 }
 

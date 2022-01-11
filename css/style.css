@@ -397,12 +397,6 @@ textarea {
   z-index: 1;
 }
 
-.value-line {
-  width: 69px;
-  height: 3px;
-  color: #ffcb8e;
-}
-
 .value-title {
   color: #c50d66;
   font-size: 3 rem;
@@ -504,6 +498,10 @@ textarea {
 }
 
 /* PLAN */
+
+.plan{
+  /* padding: 30%; */
+}
 
 .plan-container {
   width: 80%;
@@ -704,9 +702,9 @@ textarea {
 
 .core-value-image {
   margin-inline: 5%;
+  width: 150px;
   height: 150px;
-  margin-top: auto;
-  margin-bottom: 20px;
+  margin: 50px 0;
 }
 
 /* Team */
@@ -781,6 +779,10 @@ textarea {
 
 .contact-form-input {
   width: 100%;
+}
+
+.form-control{
+  height: 130%;
 }
 
 /* Contact Social */

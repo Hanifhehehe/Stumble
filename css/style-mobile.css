@@ -1,4 +1,4 @@
-@media (max-width: 992px) {
+@media (max-width: 480px) {
   /* General */
 
   body {
@@ -9,7 +9,7 @@
     padding: 0;
   }
 
-  .invisible-when-mobile {
+  .invisible-when-small {
     display: none;
   }
 
@@ -33,12 +33,10 @@
     display: none;
   }
 
-  .headline-scroll {
-    display: none;
-  }
-
   .headline-logo {
+    margin: 30px 0 10px 0;
     width: 80%;
+    right: 5px;
   }
 
   .headline-more {
@@ -56,17 +54,71 @@
     padding-top: 1rem;
   }
 
-  .value-down-arrow {
-    display: none;
+  .value-detail {
   }
 
   .value-food-center {
     width: 30%;
     position: relative;
-    bottom: 50%;
+    bottom: 70px;
+    /* position: static */
   }
 
-  .value-button {
-    display: none;
+  /* Plans */
+
+  .plan-container {
+    width: 90%;
+    padding: 20px;
+    margin: 5%;
+  }
+
+  .plan-value-container {
+    padding: 20px;
+    margin: 3%;
+    height: 90%;
+  }
+
+  .plan-value-title {
+    font-size: 1rem;
+  }
+
+  /* Vision Mission */
+
+  .vision-mission {
+    height: 1000px;
+  }
+
+  /* Contact */
+  .contact-graphics-text {
+    margin: 50px 0;
+  }
+
+  .contact-graphics-image-container {
+    margin: 20px 0;
+  }
+
+  /* Form */
+
+  .contact-form-background {
+    background-image: none;
+    background-color: #d70067;
+  }
+
+  form {
+    padding: 30px;
+    margin: 20px 0;
+  }
+
+  #contact-form {
+    margin: 0 30px;
+  }
+
+  .form-control {
+    height: 100%;
+  }
+
+  .button-submit {
+    position: relative;
+    bottom: 7px;
   }
 }

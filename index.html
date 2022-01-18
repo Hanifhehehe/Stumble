@@ -6,11 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- SEO things -->
-    <!-- <title>Stumble!</title> -->
-    <title> Stumble | Cari info tempat makan yang asyik di Jabodetabek!</title>
+    <!-- Title -->
+    <title> Stumble.id | Cari info tempat makan yang asyik di Jabodetabek!</title>
     <meta name="description"
         content="Platform dimana pecinta kuliner bertemu dengan FnB lokal Jabodetabek yang kece secara seru dan mudah!">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="http://stumble.id/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content=" Stumble | Cari info tempat makan yang asyik di Jabodetabek!">
+    <meta property="og:description"
+        content="Platform dimana pecinta kuliner bertemu dengan FnB lokal Jabodetabek yang kece secara seru dan mudah!">
+    <meta property="og:image" content="https://stumble.id/images/share-image.png">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="stumble.id">
+    <meta property="twitter:url" content="http://stumble.id/">
+    <meta name="twitter:title" content=" Stumble | Cari info tempat makan yang asyik di Jabodetabek!">
+    <meta name="twitter:description"
+        content="Platform dimana pecinta kuliner bertemu dengan FnB lokal Jabodetabek yang kece secara seru dan mudah!">
+    <meta name="twitter:image" content="https://stumble.id/images/share-image.png">
 
 
     <!-- Google Fonts-->
@@ -33,19 +49,18 @@
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
     </script>
 
-    <!-- Mailchimp -->
-    <script id="mcjs">
-        ! function (c, h, i, m, p) {
-            m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(
-                m, p)
-        }(document, "script",
-            "https://chimpstatic.com/mcjs-connected/js/users/9149879edd7191711b60cd14c/4d80597ee8362bb298054d4cb.js");
-    </script>
-
     <!-- Link to CSS -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style-mobile.css">
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico">
+
+<script id="mcjs">
+    ! function (c, h, i, m, p) {
+        m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(m,
+            p)
+    }(document, "script",
+        "https://chimpstatic.com/mcjs-connected/js/users/9149879edd7191711b60cd14c/4d80597ee8362bb298054d4cb.js");
+</script>
 
 </head>
 
@@ -102,7 +117,8 @@
                 </div>
 
                 <div class="col-lg-6 headline-column">
-                    <img src="images/home/headline/food-headline.png" alt="" class="headline-image">
+                    <img src="images/home/headline/food-headline.png" alt=""
+                        class="headline-image invisible-when-small">
                 </div>
             </div>
 
@@ -133,7 +149,6 @@
                 </div>
 
                 <div class="col-lg-6 value-image">
-                    <!-- <img src="images/food/food1.png" alt="" class="value-food-center"> -->
                     <img src="" id="image" class="value-food-center">
                     <script type="text/javascript">
                         let image = document.getElementById('image')
@@ -166,32 +181,17 @@
             <div id="product-plans" class="carousel slide" data-bs-ride="notcarousel">
 
                 <!-- CAROUSEL BUTTON -->
-                <!-- <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#product-plans" data-bs-slide-to="0" class="active btn-outline-primary btn" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#product-plans" data-bs-slide-to="1"aria-label="Slide 2" class="btn-outline-primary btn"></button>
-                </div> -->
-                
-                
-                <div class="btn-group">
-
-                    <button 
-                    class="btn btn-outline-primary" 
-                    type="button" data-bs-target="#product-plans"
-                    data-bs-slide-to="0" aria-current="true" aria-label="Slide 1">
+                <div class="carousel-indicators btn-group">
+                    <button type="button" data-bs-target="#product-plans" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1" style="border-radius: 20px 0 0 20px;" class="active plan-button">
                         For User
                     </button>
-
-                    <button
-                    class="btn btn-outline-primary"
-                    type="button" data-bs-target="#product-plans" data-bs-slide-to="1" aria-label="Slide 2">
+                    <button type="button" data-bs-target="#product-plans" data-bs-slide-to="1"aria-label="Slide 2" style="border-radius: 0 20px 20px 0;" class="plan-button">
                         For Owner
                     </button>
                 </div>
-
-
-
+                
                 <div class="carousel-inner">
-                    
+
 
                     <!-- FOR USER -->
                     <div class="carousel-item active">
@@ -241,7 +241,8 @@
                                 <br>
 
                                 <p class="paragraph">
-                                    Dengan Stumble Eats! kamu cuma bakal ngeliat informasi-informasi yang penting aja buat
+                                    Dengan Stumble Eats! kamu cuma bakal ngeliat informasi-informasi yang penting aja
+                                    buat
                                     kamu!
                                 </p>
 
@@ -308,13 +309,14 @@
                                 <br>
 
                                 <p class="paragraph">
-                                    Kita ngerti banget kalo kebutuhan orang itu semuanya beda, dengan itu kami selalu mengemas
-                                    informasi mengenai partnerner
+                                    Kita ngerti banget kalo kebutuhan orang itu semuanya beda, dengan itu kami selalu
+                                    mengemas
+                                    informasi mengenai partner
                                     FnB kami sekiranya sesuai dengan kebutuhan-kebutuhan orang!
                                 </p>
 
                                 <div class="row">
-                                    <div class="col-md-4 col-sm-6 informative-content-container">
+                                    <div class="col-lg-4 col-md-6 col-sm-12 informative-content-container">
                                         <div class="informative-content row">
                                             <div class="col-sm-6 informative-content-image-container">
                                                 <img class="informative-content-image"
@@ -326,7 +328,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-md-4 col-sm-6 informative-content-container">
+                                    <div class="col-lg-4 col-md-6 col-sm-12 informative-content-container">
                                         <div class="informative-content row">
                                             <div class="col-sm-6 informative-content-image-container">
                                                 <img class="informative-content-image"
@@ -338,7 +340,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-md-4 col-sm-6 informative-content-container">
+                                    <div class="col-lg-4 col-md-6 col-sm-12 informative-content-container">
                                         <div class="informative-content row">
                                             <div class="col-sm-6 informative-content-image-container">
                                                 <img class="informative-content-image"
@@ -350,7 +352,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-md-4 col-sm-6 informative-content-container">
+                                    <div class="col-lg-4 col-md-6 col-sm-12 informative-content-container">
                                         <div class="informative-content row">
                                             <div class="col-sm-6 informative-content-image-container">
                                                 <img class="informative-content-image"
@@ -362,7 +364,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-md-4 col-sm-6 informative-content-container">
+                                    <div class="col-lg-4 col-md-6 col-sm-12 informative-content-container">
                                         <div class="informative-content row">
                                             <div class="col-sm-6 informative-content-image-container">
                                                 <img class="informative-content-image"
@@ -374,7 +376,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-md-4 col-sm-6 informative-content-container">
+                                    <div class="col-lg-4 col-md-6 col-sm-12 informative-content-container">
                                         <div class="informative-content row">
                                             <div class="col-sm-6 informative-content-image-container">
                                                 <img class="informative-content-image"
@@ -386,7 +388,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-md-4 col-sm-6 informative-content-container">
+                                    <div class="col-lg-4 col-md-6 col-sm-12 informative-content-container">
                                         <div class="informative-content row">
                                             <div class="col-sm-6 informative-content-image-container">
                                                 <img class="informative-content-image"
@@ -398,7 +400,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-md-4 col-sm-6 informative-content-container">
+                                    <div class="col-lg-4 col-md-6 col-sm-12 informative-content-container">
                                         <div class="informative-content row">
                                             <div class="col-sm-6 informative-content-image-container">
                                                 <img class="informative-content-image"
@@ -410,7 +412,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-md-4 col-sm-6 informative-content-container">
+                                    <div class="col-lg-4 col-md-6 col-sm-12 informative-content-container">
                                         <div class="informative-content row">
                                             <div class="col-sm-6 informative-content-image-container">
                                                 <img class="informative-content-image"
@@ -435,7 +437,7 @@
 
                             <!-- FOR FNB HEADLINE -->
                             <div class="plan-fnb-headline row">
-                                <div class="col-sm-5">
+                                <div class="col-sm-5 invisible-when-small">
                                     <img src="images/home/plan-fnb/marketing.png" alt="" class="plan-picture-headline">
                                 </div>
                                 <div class="col-sm-7 plan-container-text-fnb">
@@ -448,8 +450,10 @@
                                     </h1>
                                     <br>
                                     <p>
-                                        Di era digital seperti sekarang gampang banget loh untuk ngadain online presence.
-                                        Tapi kadang-kadang buat content creation dan advertising itu rada ribet untuk bikin konsisten, 
+                                        Di era digital seperti sekarang gampang banget loh untuk ngadain online
+                                        presence.
+                                        Tapi kadang-kadang buat content creation dan advertising itu rada ribet untuk
+                                        bikin konsisten,
                                         Nah kita bisa bantu loh!
                                     </p>
 
@@ -463,6 +467,9 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="col-sm-5 invisible-when-big">
+                                    <img src="images/home/plan-fnb/marketing.png" alt="" class="plan-picture-headline">
+                                </div>
                             </div>
 
                             <hr class="hr-invisible">
@@ -473,7 +480,7 @@
                                 <h1>Our Services</h1>
                                 <br>
                                 <p class="paragraph">
-                                    
+
                                 </p>
 
                                 <div class="row">
@@ -488,9 +495,11 @@
 
                                             <p class="paragraph">
                                                 Kadang sebagai entrepreneur mandiri, kita suka gak ada waktu atau energi
-                                                sehabis ngurusin bisnis kita buat bikin content untuk social media brand kita.
+                                                sehabis ngurusin bisnis kita buat bikin content untuk social media brand
+                                                kita.
                                                 <br>
-                                                Dengan Stumble, kamu gak perlu khawatir mikirin itu lohh! biar kami yang kerjakan!
+                                                Dengan Stumble, kamu gak perlu khawatir mikirin itu lohh! biar kami yang
+                                                kerjakan!
                                             </p>
                                         </div>
                                     </div>
@@ -504,10 +513,12 @@
 
                                             <p class="paragraph">
                                                 Kita membantu bisnis FnB untuk bisa menyebarkan branding mereka di akun
-                                                kita, dengan cara ngasih memamerkan makanan ataupun tempat FnB mereka kepada
+                                                kita, dengan cara ngasih memamerkan makanan ataupun tempat FnB mereka
+                                                kepada
                                                 pengguna Instagram yang emang lagi nyariin jenis FnB yang mereka cari!
                                                 <br>
-                                                Oh iya, sekali post di kita orang-orang masih bisa ngeliat brand kalian loh walaupun 
+                                                Oh iya, sekali post di kita orang-orang masih bisa ngeliat brand kalian
+                                                loh walaupun
                                                 gak diulang-ulang!
                                             </p>
                                         </div>
@@ -526,10 +537,14 @@
                                             <h2 class="plan-value-title">Mass Marketing</h2>
 
                                             <p class="paragraph">
-                                                Untuk kalian yang pengen memperluas audience kalian, memasang iklan itu bisa jadi 
-                                                solusi yang terbaik untuk kalian. Tetapi pengguna Instagram itu suka cepet lupa loh sama
-                                                iklan yang mereka liat, dengan kami iklan yang kalian pasang bakal keliatan sama mass audience
-                                                DAN mereka juga bakal tetep bisa ngeliat brand kalian walaupun periode iklannya sudah selesai
+                                                Untuk kalian yang pengen memperluas audience kalian, memasang iklan itu
+                                                bisa jadi
+                                                solusi yang terbaik untuk kalian. Tetapi pengguna Instagram itu suka
+                                                cepet lupa loh sama
+                                                iklan yang mereka liat, dengan kami iklan yang kalian pasang bakal
+                                                keliatan sama mass audience
+                                                DAN mereka juga bakal tetep bisa ngeliat brand kalian walaupun periode
+                                                iklannya sudah selesai
                                                 <br>
                                             </p>
                                         </div>
@@ -548,7 +563,8 @@
                                 <h1>Pricing!</h1>
                                 <br>
                                 <p>
-                                    Gimana? menarik kan jasa-jasa yang kita tawarkan? Kalo tertarik boleh dicoba dibawah ya!
+                                    Gimana? menarik kan jasa-jasa yang kita tawarkan? Kalo tertarik boleh dicoba dibawah
+                                    ya!
                                 </p>
                                 <br>
 

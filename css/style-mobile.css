@@ -1,19 +1,32 @@
 @media (max-width: 480px) {
   /* General */
 
-  body {
-    text-align: center;
-  }
-
   #navigation {
     padding: 0;
+  }
+
+  .navbar-logo {
+    margin-inline: 33%;
+  }
+
+  .nav-item {
+    margin: 0%;
   }
 
   .invisible-when-small {
     display: none;
   }
+  
+  .invisible-when-big {
+    display: inline;
+  }
 
   /* Footer */
+
+  .footer {
+    padding: 4rem;
+  }
+
   .footer-logo {
     width: 100%;
   }
@@ -66,6 +79,13 @@
 
   /* Plans */
 
+  .carousel-indicators [data-bs-target] {
+  }
+
+  .plan-button{
+    font-size: 0.8rem;
+  }
+
   .plan-container {
     width: 90%;
     padding: 20px;
@@ -85,10 +105,11 @@
   /* Vision Mission */
 
   .vision-mission {
-    height: 1000px;
+    height: 500px;
   }
 
   /* Contact */
+
   .contact-graphics-text {
     margin: 50px 0;
   }
@@ -105,8 +126,8 @@
   }
 
   form {
-    padding: 30px;
-    margin: 20px 0;
+    /* padding: 0 30px; */
+    /* margin: 20px 0; */
   }
 
   #contact-form {
@@ -119,6 +140,72 @@
 
   .button-submit {
     position: relative;
-    bottom: 7px;
+    bottom: 17px;
+    margin: 10px 0;
   }
+}
+
+
+
+@media (max-width: 991px) {
+  /* General */
+
+  .invisible-when-small {
+    display: none;
+  }
+
+  .invisible-when-big{
+    display: inline;
+  }
+
+  #navigation {
+    padding: 0;
+  }
+
+  /* Index */
+
+  .value-food-center {
+    width: 30%;
+  }
+
+  .informative-content-text {
+    font-size: 0.8rem;
+  }
+
+  .plan-value-container {
+    /* width: 80%; */
+    padding: 5%;
+    height: 100%;
+  }
+
+  .plan-value-title {
+    font-size: 1.3rem;
+  }
+
+  /* About */
+
+  .vision-mission {
+    /* height: 1450px; */
+  }
+
+  /* Contact */
+
+  .contact-graphics-text {
+    margin: 50px 0;
+  }
+
+  .contact-graphics-image-container {
+    margin: 20px 0;
+  }
+
+  .contact-form-background{
+    background-image: none;
+    background-color: #d70067;
+  }
+
+  form{
+    padding: 30px;
+    margin: 20px 0;
+  }
+
 }
